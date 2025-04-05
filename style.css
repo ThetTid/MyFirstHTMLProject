@@ -2,7 +2,7 @@ body {
     margin: 0;
     height: 100vh;
     font-weight: 100;
-    background: radial-gradient(#a23982,#1f1013);
+    background: radial-gradient(whitesmoke, black);
     -webkit-overflow-Y: hidden;
     -moz-overflow-Y: hidden;
     -o-overflow-Y: hidden;
@@ -357,7 +357,7 @@ button:focus{
 
 
 .headline{
-    background: linear-gradient(white, black);
+    background: linear-gradient(ghostwhite, black);
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -365,8 +365,8 @@ button:focus{
     color: white;
     width: 250px;
     height: 50px;
-    font-size: 2em;
     margin: auto;
+    text-align: center;
 }
 
 .image-button-steam {
@@ -416,4 +416,17 @@ button:focus{
 .iamge-button-yandex-music {
     background-image: url("IMG/music.jpg");
     background-size: cover;
+}
+.headers {
+    border: 2px solid white;
+    background: transparent;
+    font-family: 'Roboto', sans-serif;
+    color: lavender;
+    border-radius: 5px;
+    bottom: 0px;
+    margin: auto;
+    background-color: black;
+    display: block;
+    max-width: 250px;
+    max-height: 50px;
 }
