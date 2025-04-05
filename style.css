@@ -429,5 +429,5 @@ button:focus{
     background-color: black;
     display: block;
     max-width: 250px;
-    max-height: 50px;
+    max-height: 40px;
 }
