@@ -412,6 +412,7 @@ button:focus{
     background-color: black;
     display: block;
     max-width: 2250px;
+    text-align: center;
 }
 .iamge-button-yandex-music {
     background-image: url("IMG/music.jpg");
